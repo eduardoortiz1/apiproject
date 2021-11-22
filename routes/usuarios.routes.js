@@ -16,11 +16,10 @@ const operacion = require('../operations/usuarios.operations');
 	eliminar un dato: 			delete('/:id', operacion.metodo)
 */
 router.get('/', 	operacion.getUsuarios);
-/*
 router.get('/:id', 	operacion.getUsuario);
 router.post('/', 	operacion.crearUsuario);
-router.put("/:id",	operacion.actualizarUsuario);
+router.put('/:id',	operacion.actualizarUsuario);
 router.delete('/:id', operacion.borrarUsuario);
-*/
+
 
 module.exports = router
